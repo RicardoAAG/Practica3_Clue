@@ -1,0 +1,31 @@
+{
+  "evidencia": [
+    {
+      "personajes": {
+        "ingeniero": false,
+        "espia": false,
+        "medico": false,
+        "soldado": false,
+        "francotirador": false
+      }
+    },
+    {
+      "locaciones": {
+        "casa": false,
+        "tunel": false,
+        "barracones": false,
+        "puesto de guardia": false,
+        "enfermeria": false
+      }
+    },
+    {
+      "armas": {
+        "papel de regalo": false,
+        "katana": false,
+        "cuchillo mariposa": false,
+        "guante de box": false,
+        "llave inglesa": false
+      }
+    }
+  ]
+}
