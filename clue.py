@@ -137,7 +137,7 @@ testimonio4= alazar_borrar_personaje(4)+" estaba en "+alazar_borrar_locacion(4)+
 ##
 
 
-print("Parece que hay un asesino entre nosotros porque mataron al Jefe")
+print("Parece que hay un asesino entre nosotros porque mataron al Jefe\n")
 print("Pudo haber sido cualquiera de los 5 mercenarios, en cualquier lugar de la base usando alguno de estas 5 armas")
 print("Interrogemos a los sospechos para ver que estuvieron haciendo, o indagemos mas en la informacion que sabemos de las armas y los lugares")
 print("El tiempo es limitado antes de que escape, solo podemos realizar 5 busquedas o interrogaciones")
