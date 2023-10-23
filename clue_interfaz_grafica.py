@@ -189,11 +189,15 @@ testimonio2 = alazar_borrar_personaje(2) + " estaba en " + alazar_borrar_locacio
 testimonio3 = alazar_borrar_personaje(3) + " estaba en " + alazar_borrar_locacion(3) + " usando " + alazar_borrar_arma(3)
 testimonio4 = alazar_borrar_personaje(4) + " estaba en " + alazar_borrar_locacion(4) + " usando " + alazar_borrar_arma(4)
 
-# Etiqueta para mostrar el resultado final
+label_titulo = tk.Label(root, text="CLUE Team Fortress 2")
+label_titulo.pack()
+
+label_intentos = tk.Label(root, text="Intentos restantes: ")
+label_intentos.pack()
+
 resultado_label = tk.Label(root, text="", padx=10, pady=10)
 resultado_label.pack()
 
-# Botones para investigar
 investigar_personaje_button = tk.Button(root, text="Investigar Personaje", command=investigar_personaje)
 investigar_personaje_button.pack()
 
@@ -203,9 +207,7 @@ investigar_locacion_button.pack()
 investigar_arma_button = tk.Button(root, text="Investigar Arma", command=investigar_arma)
 investigar_arma_button.pack()
 
-# Botón para finalizar el juego
 finalizar_button = tk.Button(root, text="Finalizar Juego", command=finalizar_juego)
 finalizar_button.pack()
 
-# Iniciar la ventana principal de Tkinter
 root.mainloop()
